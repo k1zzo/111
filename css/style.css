@@ -1,0 +1,191 @@
+.container {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1488px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar {
+    background-color: #0395d3;
+}
+
+.navbar-text {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-text a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.jumbotron {
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.display-4 {
+    max-width: 700px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.display-4 span {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.jumbotron {
+    padding: 10rem 2rem;
+}
+
+.btn {
+    background-color: #0395d3;
+    color: #fff;
+    font-size: 16px;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.picture-img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+.abouts {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px rgb(211 211 211);
+}
+
+.fw-bold.mb-4 {
+    font-size: 26px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.fw-bold.mb-4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px; 
+    width: 25%;
+    height: 3px; 
+    background-color: #0395d3;
+}
+
+.ab {
+    font-size: 18px;
+}
+
+.card {
+    text-align: center;
+    border: none;
+}
+
+.fw-bold.xs.mb-4::after {
+    width: 8%;
+}
+
+.fw-bold.s.mb-4::after {
+    width: 14%;
+}
+
+.wrp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-picture {
+    width: 65px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+    max-width: 850px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel {
+    max-width: 900px; 
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+.carousel-control-prev img, .carousel-control-next img {
+    width: 55px;
+}
+
+
+.carousel-indicators li {
+    background-color: #69b8d9;
+}
+
+.slider {
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: #0395d3;
+}
+
+.footer-title {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer-descr {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #fff;
+}
+
+.footer-img {
+    width: 35px;
+    margin-right: 8px;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
